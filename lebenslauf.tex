@@ -1,60 +1,97 @@
 \documentclass[a4paper,10pt]{article}
-\usepackage[margin=1in]{geometry}
+\usepackage[margin=1.0in]{geometry}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{titlesec}
+\usepackage{fontawesome}
 
 %--------------------Section formatting--------------------
 \titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+
+\pagestyle{empty}
 
 \begin{document}
 
 %--------------------Header--------------------
 \begin{center}
-    {\LARGE Manuel Oelmaier} \\[2mm]
-    Eching, Germany \\
-    Phone: +49 1708319223 \\
-    Email: \href{mailto:manuel@oelmaier.eu}{manuel@oelmaier.eu} \\
-    LinkedIn: \href{https://linkedin.com/in/yourprofile}{linkedin.com/in/yourprofile} \\
-    GitHub: \href{https://github.com/manuel-Oelmaier}{github.com/manuel-Oelmaier}
+    {\LARGE Manuel Oelmaier} \\[1mm]
+    Eching, Germany \quad
+    \faPhone\ +49 1708319223 \quad
+    \faEnvelope\ \href{mailto:manuel@oelmaier.eu}{manuel@oelmaier.eu} \\
+    \faLinkedin\ \href{https://www.linkedin.com/in/manuel-oelmaier/}{linkedin.com/in/manuel-oelmaier} \quad
+    \faGithub\ \href{https://github.com/manuel-Oelmaier}{github.com/manuel-Oelmaier}
 \end{center}
 
 %--------------------Profile--------------------
 \section*{Profile}
-# TODO 
-Recent [Your Degree] graduate with strong analytical and problem-solving skills. 
-Looking to apply my knowledge in [Field/Industry] and contribute to [Type of Work/Company].  
-
+% TODO: Write a brief summary about yourself, your skills, and your career goals.
+Computer Science student at the Technical University of Munich, specializing in Machine Learning and AI. 
+Experienced in fine-tuning transformer models and developing software and web applications. 
+Proficient in Python, Java, Bash, and full-stack development. 
+Passionate about applying AI and software engineering skills to innovative projects.
 %--------------------Education--------------------
 \section*{Education}
 \textbf{Bachelor of Science in Computer Science} \hfill 2021 -- 2025 \\
-University X, City, Country \\
-\begin{itemize}[noitemsep, topsep=0pt]
-    \item Relevant Courses: Data Structures, Web Development, Machine Learning
+Technical University of Munich, Germany \\ 
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=2em]
+    \item Focus: Machine Learning, AI, Software Development
+    \item Relevant coursework: Praktikum Next Gen AI, Fundamentals of Programming, Fundamentals of Algorithms and Data Structures
 \end{itemize}
 
+\vspace{1em}
+
+\noindent \textbf{Abitur} \hfill 2015 -- 2021 \\
+Oskar-Maria-Graf Gymnasium, Germany \\
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=2em]
+    \item Focus on mathematics and computer science
+    \item \textit{Seminar paper:} Implementation of a KI based on the Minimax algorithm for a self-created game
+\end{itemize}
 %--------------------Skills--------------------
 \section*{Skills}
-\textbf{Technical:} Python, Java, Webstack, C/C++\\
-\textbf{Languages:} German ,English (C1)
+\textbf{Technical:} Python, Java, Javascript/ Typescript, HTML,CSS , C/C++, Bash ,SQL \& MongoDB \\
+\textbf{Frameworks / Tools:} Pytorch, Git , Linux , Huggingface , React \\
+\textbf{Areas of Interest:} Machine Learning, Artificial Intelligence, Web Development \\
+\textbf{Languages:} German ,English (B2) \\
 \textbf{Soft Skills:} Communication, Teamwork, Problem-solving
 
 %--------------------Projects--------------------\begin{itemize}[noitemsep, topsep=0pt]
 
 \section*{Projects}
-\textbf{Personal Budget App} \hfill 2024 \\
 
+\vspace{1mm} 
+
+\textbf{Praktikum Next Gen AI: Finetuning an AI Model} \hfill 2025
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=2em]
+    \item Fine-tuned transformer-based models for generating Python code.
+    \item Set up an automated pipeline to evaluate models on multiple test cases.
+    \item Improved model performance from 40\% to 75\% on code generation tasks.
+    \item Published the model as a Visual Studio Code extension, enabling users to leverage AI capabilities directly within their coding environment.
+\end{itemize}
+
+\vspace{1mm} % small space between projects
+
+\noindent \textbf{Learning Website for Theoretical Informatics} \hfill 2025
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=2em]
+    \item Collected all multiple-choice questions for the theoretical informatics course at TUM.
+    \item Developed a web-based platform for interactive learning and self-assessment.
+\end{itemize}
+
+\vspace{1mm}
+
+\noindent \textbf{Training a Chess AI to Mirror My Playing Style} \hfill 2025 -- Ongoing
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=2em]
+    \item Collected all personal games from Lichess for training data.
+    \item Converted each game into pairs of (board position, next move) and stored in a database.
+    \item Currently training a neural network to predict my next move based on the board position.
+\end{itemize}
 
 %--------------------Extracurricular--------------------
 \section*{Extracurricular Activities}
 \begin{itemize}[noitemsep, topsep=0pt]
-    \item Chess youth trainer at SC Eching, coordinating and keeping the game entertaning for kids.
+\item Chess youth trainer at SC Eching, responsible for organizing sessions and making chess engaging for children.
+\item Competitive chess player, frequently participating in regional tournaments with strong results.
 \end{itemize}
 
-%--------------------Certificates--------------------
-\section*{Certificates}
-\begin{itemize}[noitemsep, topsep=0pt]
-    \item ????
-\end{itemize}
+
 
 \end{document}
